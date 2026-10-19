@@ -4,9 +4,14 @@ frontend/node_modules/
 
 # Build outputs
 frontend/dist/
-build/bin/
 lanchat
 lanchat.exe
+
+# Build binaries (keep build configs, ignore compiled outputs)
+build/macos/LAN Chat.app/
+build/macos/*.dmg
+build/macos/dmg_staging/
+build/windows/*.exe
 
 # OS files
 .DS_Store
@@ -17,10 +22,6 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
-
-# Go
-*.exe
-!build/windows/*.exe
 
 # Wails dev
 wails.log

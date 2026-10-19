@@ -118,7 +118,6 @@ lanchat/
 │   ├── darwin/                  #   macOS 构建配置
 │   ├── macos/                   #   macOS 构建产物
 │   └── windows/                 #   Windows 构建配置 & 产物
-├── build-windows.ps1            # Windows 构建脚本
 └── wails.json                   # Wails 项目配置
 ```
 
